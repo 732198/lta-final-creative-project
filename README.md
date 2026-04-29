@@ -1,6 +1,6 @@
 # Jekyll for Senate — Creative Project
-**Student:** 732198
-**Course:** Urban Spaces & Cultural Texts
+**Student:** Charles Zhang
+**Course:** Spring-LTA2061 Tales of the City
 **Assignment:** Creative Project
 **Theme:** Uncivil Disagreement
 **Primary Texts:** Stevenson, *The Strange Case of Dr. Jekyll and Mr. Hyde* (1886) & Foucault, "Panopticism" (1975)
