@@ -4,7 +4,7 @@ const toggle = document.getElementById('mode-toggle');
 toggle.addEventListener('click', () => {
   const isHyde = html.getAttribute('data-mode') === 'hyde';
   html.setAttribute('data-mode', isHyde ? 'jekyll' : 'hyde');
-  toggle.textContent = isHyde ? '☀️' : '🌑';
+  toggle.textContent = isHyde ? '🌑 Hyde Mode' : '☀️ Jekyll Mode';
 });
 
 document.querySelectorAll('.faq-question').forEach(btn => {
@@ -70,22 +70,5 @@ document.querySelectorAll('.donate-amount:not(.donate-amount--featured)').forEac
     input.value = amount;
     input.style.borderColor = 'var(--accent)';
     setTimeout(() => input.style.borderColor = '', 1000);
-  });
-});
-
-let hydeTyped = false;
-document.querySelectorAll('.donate-input').forEach(input => {
-  input.addEventListener('input', () => {
-    const val = input.value.toLowerCase();
-    if ((val.includes('hyde') || val.includes('edward')) && !hydeTyped) {
-      hydeTyped = true;
-      html.setAttribute('data-mode', 'hyde');
-      toggle.textContent = '🌑';
-      setTimeout(() => {
-        html.setAttribute('data-mode', 'jekyll');
-        toggle.textContent = '☀️';
-        hydeTyped = false;
-      }, 3000);
-    }
   });
 });
