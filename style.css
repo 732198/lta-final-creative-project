@@ -750,15 +750,11 @@ p:last-child {
 .press-item h4 {
   font-family: var(--fd);
   font-size: 1rem;
-  color: #f5f0e8;
+  color: var(--text-light);
   margin-bottom: 0.75rem;
   line-height: 1.35;
   letter-spacing: 0;
   text-transform: none;
-}
-
-[data-mode="hyde"] .press-item h4 {
-  color: var(--text);
 }
 
 .press-item p {
@@ -1016,6 +1012,10 @@ p:last-child {
   letter-spacing: 0.2em;
   color: var(--gold);
   margin-bottom: 0.5rem;
+}
+
+[data-mode="hyde"] .footer-logo {
+  color: var(--danger);
 }
 
 .footer-tagline {
