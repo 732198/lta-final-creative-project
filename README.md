@@ -11,7 +11,7 @@
 
 This project is a satirical fake political campaign website for Dr. Henry Jekyll, the protagonist of Robert Louis Stevenson's novella, reimagined as a Senate candidate in a Victorian-era city. The site is built in vanilla HTML, CSS, and JavaScript across three files.
 
-The central satirical conceit is that Jekyll's campaign website has been compromised — by Hyde. The site has two modes, toggled by a button in the navbar:
+The central satirical conceit is that Jekyll's campaign website has been compromised by Hyde. The site has two modes, toggled by a button in the topright bar:
 
 - **Jekyll Mode (light)** — the public-facing campaign site. Clean, professional, and carefully managed. This is what Jekyll wants voters to see.
 - **Hyde Mode (dark)** — the version Hyde has taken over. Every section is rewritten in Hyde's voice: first-person, contemptuous, and gleeful. Internal documents appear. Damning footnotes surface. Suppressed press coverage is revealed. Hyde narrates Jekyll's entire biography from the inside.
