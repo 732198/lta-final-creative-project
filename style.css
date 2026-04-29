@@ -1164,10 +1164,6 @@ p:last-child { margin-bottom: 0; }
 ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
 
-/* ══════════════════════════════════════════
-   RESPONSIVE
-══════════════════════════════════════════ */
-
 @media (max-width: 900px) {
   .hero {
     grid-template-columns: 1fr;
